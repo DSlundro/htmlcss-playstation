@@ -1,5 +1,5 @@
 /*          UTILITY*/
-
+body{font-family: Arial, Helvetica, sans-serif !important;}
 .clear-100{max-width: 100% !important;}
 
 
@@ -15,6 +15,24 @@
     background-position: center;
     height: 500px;
 }
-.jumbotron img{width: 250px;}
 
+/*          MAIN*/
 
+.jumbotron img  {width: 250px;}
+.cards     img  {border-radius: 20px;}
+.info_ps5  img,  
+.explore   img,
+.plus_april img
+{width: 100%;}
+.it_banner{
+    background: url(/assets/img/it-takes-two-hero-banner-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.it_banner img{width: 40%;}
+.news img       {
+    width: 100%;
+    border-radius: 20px;
+}
+.ps_plus .card-body img{width: 50%;}
