@@ -1,0 +1,20 @@
+/*          UTILITY*/
+
+.clear-100{max-width: 100% !important;}
+
+
+
+/*          HEADER*/
+
+.site_header img{width: 120px;}
+.site_header .ps_logo{width: 50px;}
+.jumbotron{
+    background-image: url(/assets/img/jumbo-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+.jumbotron img{width: 250px;}
+
+
