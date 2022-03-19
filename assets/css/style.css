@@ -68,9 +68,11 @@ footer li{padding: 5px 0;}
     color: var(--bs-primary);
 }
 
-.db_danger{
+/*  buttons*/
+.db-dark-danger:hover       {border: 1px solid black;box-shadow: 0 0 0 1px var(--bs-danger);}
+.db-white-dark:hover        {border: 1px solid white;box-shadow: 0 0 0 1px var(--bs-dark);}
+.db-white-primary:hover     {border: 1px solid white;box-shadow: 0 0 0 1px var(--bs-primary);}
+.db-secondary-white:hover   {border: 1px solid var(--bs-secondary);box-shadow: 0 0 0 1px white;}
+.db-gray-white:hover        {border: 1px solid var(--bs-gray);box-shadow: 0 0 0 1px white;}
 
-    box-shadow: 0 0 0 1px transparent,
-                0 0 0 1px var(--bg-danger);
-}
 
