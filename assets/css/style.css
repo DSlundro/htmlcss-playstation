@@ -1,6 +1,8 @@
 /*          UTILITY*/
 body{font-family: Arial, Helvetica, sans-serif !important;}
 .clear-100{max-width: 100% !important;}
+.vw-100{width: 100vw !important;}
+trans{transition: all 0.3s ease;}
 
 
 
@@ -15,11 +17,21 @@ body{font-family: Arial, Helvetica, sans-serif !important;}
     background-position: center;
     height: 500px;
 }
+.nav_img img{width: 60px;}
+
+.dropdown-item li::before {
+    content: "•";
+    color: var(--bs-primary);
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em
+}
 
 /*          MAIN*/
 
 .jumbotron img  {width: 250px;}
 .cards     img  {border-radius: 20px;}
+
 .info_ps5  img,  
 .explore   img,
 .plus_april img,
@@ -33,14 +45,11 @@ body{font-family: Arial, Helvetica, sans-serif !important;}
     background-size: cover;
     background-position: center;
 }
-.it_banner img,
-.psn img
-{width: 40%;}
-.news img       {
-    width: 100%;
-    border-radius: 20px;
-}
+.it_banner img,.psn img{width: 40%;}
+.news img{width: 100%;border-radius: 20px;}
 .ps_plus .card-body img{width: 50%;}
+
+
+/*          FOOTER */
 footer img{width: 150px;}
-
-
+footer li{padding: 5px 0;}
