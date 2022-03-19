@@ -5,7 +5,6 @@ body{font-family: Arial, Helvetica, sans-serif !important;overflow-x: hidden;}
 .trans{transition: all 0.3s ease;}
 
 
-
 /*          HEADER*/
 
 .site_header img{width: 120px;}
@@ -33,7 +32,11 @@ body{font-family: Arial, Helvetica, sans-serif !important;overflow-x: hidden;}
 /*          MAIN*/
 
 .jumbotron img  {width: 250px;}
-.cards     img  {border-radius: 20px;}
+.cards     img  {transition: all 0.5s ease;border-radius: 20px;}
+.cards   .row > div:first-child img{
+    border: 1px solid white;
+    box-shadow: 0 0 0 2px var(--bs-primary);
+}
 
 .info_ps5  img,  
 .explore   img,
@@ -75,4 +78,8 @@ footer li{padding: 5px 0;}
 .db-secondary-white:hover   {border: 1px solid var(--bs-secondary);box-shadow: 0 0 0 1px white;}
 .db-gray-white:hover        {border: 1px solid var(--bs-gray);box-shadow: 0 0 0 1px white;}
 
-
+.cards img:hover{
+    
+    transform: translateY(-20px);
+    cursor: pointer;
+}
