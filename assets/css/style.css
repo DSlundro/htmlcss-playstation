@@ -9,13 +9,14 @@ body{font-family: Arial, Helvetica, sans-serif !important;overflow-x: hidden;}
 
 .site_header img{width: 120px;}
 .site_header .ps_logo{width: 50px;}
-.jumbotron{
-    background-image: url(/assets/img/jumbo-bg.png);
+.jumbotron {
+    background: url(https://raw.githubusercontent.com/DSlundro/htmlcss-playstation/main/assets/img/jumbo-bg.png);
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
     height: 500px;
 }
+
 .nav_img{margin: 50px 0;}
 .nav_img img{
     width: 60px;
@@ -28,7 +29,7 @@ body{font-family: Arial, Helvetica, sans-serif !important;overflow-x: hidden;}
     width: 1em;
     margin-left: -1em;
 }
-.hamburger:active{background-color: red;}
+.dropdown-menu{transition:all 0.3s ease}
 .hamburger .dropdown-toggle::after {
     display: none;
 }
@@ -62,10 +63,10 @@ body{font-family: Arial, Helvetica, sans-serif !important;overflow-x: hidden;}
 .social img
 {width: 100%;}
 .it_banner{
-    background: url(/assets/img/it-takes-two-hero-banner-desktop.jpg);
+    background-image: url(https://raw.githubusercontent.com/DSlundro/htmlcss-playstation/main/assets/img/it-takes-two-hero-banner-desktop.jpg);
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
 }
 .it_banner img,.psn img{width: 40%;}
 .news img{width: 100%;border-radius: 20px;}
@@ -114,4 +115,34 @@ footer li{padding: 5px 0;}
 footer li:hover{
     cursor: pointer;
     border-bottom: 1px solid white;
+}
+
+
+/*          RESPONSIVE*/
+
+@media screen and (max-width: 420px){
+    
+    .col-xs-12{width: 100%;}
+    .d-xs-none{display: none;}
+
+}
+
+
+
+/*          ACCESSORI*/
+
+video{
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    bottom: 0;
+}
+.accs_jumbo{
+    height: 500px;
+}
+.accs_card{
+    max-width: 550px;
+}
+.dual_sense img{
+    width: 80%;
 }
