@@ -1,9 +1,9 @@
 /*          UTILITY*/
 body{font-family: Arial, Helvetica, sans-serif !important;overflow-x: hidden;}
+img{width: 100%;}
 .clear-100{max-width: 100% !important;}
 .vw-100{width: 100vw !important;}
 .trans{transition: all 0.3s ease;}
-
 
 /*          HEADER*/
 
@@ -44,8 +44,6 @@ body{font-family: Arial, Helvetica, sans-serif !important;overflow-x: hidden;}
 }
 .dropdown-toggle.show::after{content: '\f106';}
 
-
-
 /*          MAIN*/
 
 .jumbotron img  {width: 250px;}
@@ -55,13 +53,6 @@ body{font-family: Arial, Helvetica, sans-serif !important;overflow-x: hidden;}
     box-shadow: 0 0 0 2px var(--bs-primary);
 }
 
-.info_ps5  img,  
-.explore   img,
-.plus_april img,
-.sales img,
-.ps_now img,
-.social img
-{width: 100%;}
 .it_banner{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-position: center;
@@ -127,8 +118,6 @@ footer li:hover{
 
 }
 
-
-
 /*          ACCESSORI*/
 
 .accs_jumbo{
@@ -145,4 +134,4 @@ footer li:hover{
 .dual_sense img{
     width: 80%;
 }
-img{width: 100%;}
+
